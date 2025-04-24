@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane Designer - Graphic Design Portfolio</title>
+  <meta name="description" content="Professional graphic designer portfolio showcasing branding, UI/UX, and print design work.">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="min-h-screen bg-fafafa">
+    <!-- Navigation -->
+    <header class="sticky-header">
+      <div class="container">
+        <a href="/" class="logo">
+          <span class="text-primary">Jane</span> Designer
+        </a>
+        <nav class="desktop-nav">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button class="btn btn-outline btn-sm desktop-only">
+          Let's Talk
+          <svg class="icon-chevron-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6"/>
+          </svg>
+        </button>
+        <button class="btn-menu mobile-only">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1 class="hero-title">Crafting Visual Stories That Speak</h1>
+                <p class="hero-description">Transforming ideas into captivating visual experiences that connect, inspire, and engage.</p>
+              </div>
+              <div class="hero-buttons">
+                <button class="btn btn-primary">
+                  View My Work
+                  <svg class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"/>
+                    <path d="m12 5 7 7-7 7"/>
+                  </svg>
+                </button>
+                <button class="btn btn-outline">Get in Touch</button>
+              </div>
+            </div>
+            <div class="hero-image-container">
+              <div class="hero-image-wrapper">
+                <img src="https://via.placeholder.com/350x450" alt="Designer Portrait" class="hero-image">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-background"></div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image-container">
+              <div class="about-image-wrapper">
+                <img src="https://via.placeholder.com/400x400" alt="About Me" class="about-image">
+              </div>
+            </div>
+            <div class="about-content">
+              <h2 class="section-title">About Me</h2>
+              <p class="text-muted">
+                I'm a passionate graphic designer with over 5 years of experience creating meaningful visual
+                solutions. My approach combines strategic thinking with creative execution to deliver designs that not
+                only look beautiful but also effectively communicate your message.
+              </p>
+              <p class="text-muted">
+                With a background in both traditional and digital design, I bring a versatile skill set to every
+                project. I believe in the power of thoughtful design to transform brands and create memorable
+                experiences.
+              </p>
+              <div class="social-links">
+                <button class="social-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  <span class="sr-only">LinkedIn</span>
+                </button>
+                <button class="social-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <span class="sr-only">Email</span>
+                </button>
+                <button class="btn btn-contact">Contact Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My Skills & Tools</h2>
+            <p class="section-subtitle">The creative arsenal I use to bring ideas to life</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon-container blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                  <path d="m12 19 7-7 3 3-7 7-3-3z"></path>
+                  <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="m2 2 7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <h3 class="skill-title">Adobe Illustrator</h3>
+              <p class="skill-description">Vector Graphics</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-container pink">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                  <circle cx="13.5" cy="6.5" r=".5"></circle>
+                  <circle cx="17.5" cy="10.5" r=".5"></circle>
+                  <circle cx="8.5" cy="7.5" r=".5"></circle>
+                  <circle cx="6.5" cy="12.5" r=".5"></circle>
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-title">Adobe Photoshop</h3>
+              <p class="skill-description">Image Editing</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-container blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                  <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
+                  <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+                  <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
+                  <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
+                  <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-title">Figma</h3>
+              <p class="skill-description">UI/UX Design</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-container pink">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                  <line x1="3" x2="21" y1="9" y2="9"></line>
+                  <line x1="9" x2="9" y1="21" y2="9"></line>
+                </svg>
+              </div>
+              <h3 class="skill-title">Canva</h3>
+              <p class="skill-description">Quick Designs</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-container blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <path d="M21 15l-5-5L5 21"></path>
+                </svg>
+              </div>
+              <h3 class="skill-title">UI/UX Design</h3>
+              <p class="skill-description">User Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories of Work -->
+      <section id="work" class="work-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Categories of Work</h2>
+            <p class="section-subtitle">Explore my diverse range of design services</p>
+          </div>
+          <div class="tabs">
+            <div class="tabs-list">
+              <button class="tab-trigger active" data-tab="branding">Branding</button>
+              <button class="tab-trigger" data-tab="social">Social Media</button>
+              <button class="tab-trigger" data-tab="uiux">UI/UX</button>
+              <button class="tab-trigger" data-tab="posters">Posters</button>
+              <button class="tab-trigger" data-tab="events">Event Design</button>
+            </div>
+            <div class="tab-content active" id="branding-content">
+              <div class="work-grid">
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Branding Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Brand Identity Design</h3>
+                    <p class="work-description">
+                      Comprehensive brand identity systems including logos, color palettes, typography, and brand
+                      guidelines.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Branding Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Logo Design</h3>
+                    <p class="work-description">
+                      Distinctive, memorable logos that capture the essence of your brand and stand the test of time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="social-content">
+              <div class="work-grid">
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Social Media Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Instagram Templates</h3>
+                    <p class="work-description">
+                      Cohesive, eye-catching templates that maintain brand consistency across your social media
+                      presence.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Social Media Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Content Creation</h3>
+                    <p class="work-description">
+                      Engaging visual content designed to increase engagement and grow your audience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="uiux-content">
+              <div class="work-grid">
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="UI/UX Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Website Design</h3>
+                    <p class="work-description">
+                      User-centered website designs that balance aesthetics with functionality and conversion
+                      optimization.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="UI/UX Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Mobile App Design</h3>
+                    <p class="work-description">
+                      Intuitive, visually appealing app interfaces that enhance user experience and engagement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="posters-content">
+              <div class="work-grid">
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Poster Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Event Posters</h3>
+                    <p class="work-description">
+                      Eye-catching posters that effectively communicate event details while capturing attention.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Poster Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Promotional Materials</h3>
+                    <p class="work-description">
+                      Compelling promotional designs that drive action and increase brand awareness.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="events-content">
+              <div class="work-grid">
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Event Design Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Event Branding</h3>
+                    <p class="work-description">
+                      Cohesive visual identities for events that create memorable experiences for attendees.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-card">
+                  <div class="work-image-container">
+                    <img src="https://via.placeholder.com/500x300" alt="Event Design Example" class="work-image">
+                  </div>
+                  <div class="work-details">
+                    <h3 class="work-title">Signage & Materials</h3>
+                    <p class="work-description">
+                      Comprehensive event materials including signage, programs, badges, and digital assets.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certification Section -->
+      <section class="certification-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional qualifications and continued education</p>
+          </div>
+          <div class="certifications-grid">
+            <div class="certification-card">
+              <div class="certification-content">
+                <div class="certification-icon-container blue">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="certification-icon">
+                    <path d="M21.64 3.64a1.35 1.35 0 0 0-1.94 0L8 15.35l-2.64-2.65a1.35 1.35 0 0 0-1.94 0 1.4 1.4 0 0 0 0 1.95l3.64 3.7a1.35 1.35 0 0 0 1.94 0l12.7-12.7a1.4 1.4 0 0 0 0-1.95z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="certification-title">Adobe Certified Expert</h3>
+                  <p class="certification-description">Adobe Illustrator & Photoshop</p>
+                  <span class="badge">2023</span>
+                </div>
+              </div>
+            </div>
+            <div class="certification-card">
+              <div class="certification-content">
+                <div class="certification-icon-container pink">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="certification-icon">
+                    <path d="M21.64 3.64a1.35 1.35 0 0 0-1.94 0L8 15.35l-2.64-2.65a1.35 1.35 0 0 0-1.94 0 1.4 1.4 0 0 0 0 1.95l3.64 3.7a1.35 1.35 0 0 0 1.94 0l12.7-12.7a1.4 1.4 0 0 0 0-1.95z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="certification-title">UI/UX Design Specialization</h3>
+                  <p class="certification-description">California Institute of Arts</p>
+                  <span class="badge">2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="certification-card">
+              <div class="certification-content">
+                <div class="certification-icon-container blue">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="certification-icon">
+                    <path d="M21.64 3.64a1.35 1.35 0 0 0-1.94 0L8 15.35l-2.64-2.65a1.35 1.35 0 0 0-1.94 0 1.4 1.4 0 0 0 0 1.95l3.64 3.7a1.35 1.35 0 0 0 1.94 0l12.7-12.7a1.4 1.4 0 0 0 0-1.95z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="certification-title">Brand Identity Design</h3>
+                  <p class="certification-description">School of Visual Arts</p>
+                  <span class="badge">2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sample Design Gallery -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Design Gallery</h2>
+            <p class="section-subtitle">A showcase of my recent creative work</p>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item tall">
+              <img src="https://via.placeholder.com/400x500" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Brand Identity</h3>
+                  <p class="gallery-description">Eco-friendly cosmetics brand</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://via.placeholder.com/400x400" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Mobile App UI</h3>
+                  <p class="gallery-description">Fitness tracking application</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item tall">
+              <img src="https://via.placeholder.com/400x500" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Packaging Design</h3>
+                  <p class="gallery-description">Artisanal coffee brand</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://via.placeholder.com/400x400" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Social Media Campaign</h3>
+                  <p class="gallery-description">Fashion retailer seasonal launch</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item tall">
+              <img src="https://via.placeholder.com/400x500" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Event Branding</h3>
+                  <p class="gallery-description">Music festival identity</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://via.placeholder.com/400x400" alt="Design Work" class="gallery-image">
+              <div class="gallery-overlay">
+                <div class="gallery-text">
+                  <h3 class="gallery-title">Website Design</h3>
+                  <p class="gallery-description">Architecture portfolio site</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-action">
+            <button class="btn btn-primary">
+              View Full Portfolio
+              <svg class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What my clients have to say about working together</p>
+          </div>
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-stars pink">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none  width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">
+                    "Working with Jane was a game-changer for our brand. She understood our vision immediately and
+                    translated it into a visual identity that perfectly captures our essence. The process was
+                    smooth, and the results exceeded our expectations."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">
+                    <img src="https://via.placeholder.com/40x40" alt="Client" class="testimonial-image">
+                  </div>
+                  <div>
+                    <h4 class="author-name">Sarah Johnson</h4>
+                    <p class="author-title">CEO, Bloom Cosmetics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-stars blue">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">
+                    "Jane redesigned our entire website and the results were phenomenal. Not only does it look
+                    beautiful, but she also considered the user experience which has significantly improved our
+                    conversion rates. Highly recommend!"
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">
+                    <img src="https://via.placeholder.com/40x40" alt="Client" class="testimonial-image">
+                  </div>
+                  <div>
+                    <h4 class="author-name">Michael Chen</h4>
+                    <p class="author-title">Founder, TechStart</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-stars pink">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">
+                    "The social media templates Jane created for our brand have been a complete game-changer. Our
+                    engagement has increased by 200% and we've received countless compliments on our new visual
+                    identity. Jane is talented, professional, and a joy to work with."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar">
+                    <img src="https://via.placeholder.com/40x40" alt="Client" class="testimonial-image">
+                  </div>
+                  <div>
+                    <h4 class="author-name">Emily Rodriguez</h4>
+                    <p class="author-title">Marketing Director, Urban Eats</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Let's discuss your project and bring your vision to life</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-form-container">
+              <form class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" class="form-input" placeholder="Your name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" type="email" class="form-input" placeholder="Your email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input id="subject" class="form-input" placeholder="Project inquiry">
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" class="form-textarea" placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button class="btn btn-primary btn-full">
+                  Send Message
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-message">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div>
+                <h3 class="contact-info-title">Contact Information</h3>
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <div class="contact-icon-container pink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="contact-label">Email</p>
+                      <p class="contact-value">hello@janedesigner.com</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon-container blue">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="contact-label">Phone</p>
+                      <p class="contact-value">(123) 456-7890</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon-container pink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="contact-label">Location</p>
+                      <p class="contact-value">San Francisco, CA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="office-hours">
+                <h3 class="contact-info-title">Office Hours</h3>
+                <div class="hours-details">
+                  <p class="text-muted">Monday - Friday: 9am - 5pm PST</p>
+                  <p class="text-muted">Weekend: By appointment only</p>
+                </div>
+              </div>
+              <div class="social-media">
+                <h3 class="contact-info-title">Follow Me</h3>
+                <div class="social-icons">
+                  <button class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                    <span class="sr-only">Facebook</span>
+                  </button>
+                  <button class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                    <span class="sr-only">Instagram</span>
+                  </button>
+                  <button class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                    </svg>
+                    <span class="sr-only">Twitter</span>
+                  </button>
+                  <button class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect width="4" height="12" x="2" y="9"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <span class="sr-only">LinkedIn</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-copyright">
+            <p class="copyright-text">
+              &copy; <span id="current-year"></span> Jane Designer. All rights reserved.
+            </p>
+          </div>
+          <div class="footer-links">
+            <a href="/terms" class="footer-link">Terms</a>
+            <a href="/privacy" class="footer-link">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
